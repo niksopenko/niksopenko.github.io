@@ -1,0 +1,67 @@
+:root {
+  --text: #111;
+  --muted: #333;
+  --rule: #bbb;
+}
+
+html, body {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  color: var(--text);
+  background: #fff;
+  font-family: Georgia, "Times New Roman", Times, serif;
+  font-size: 18px;
+  line-height: 1.45;
+}
+
+.page {
+  max-width: 780px;
+  margin: 28px auto;
+  padding: 0 16px;
+}
+
+h1 {
+  font-size: 28px;
+  font-weight: 700;
+  margin: 0 0 12px 0;
+}
+
+h2 {
+  font-size: 18px;
+  font-weight: 700;
+  margin: 18px 0 8px 0;
+}
+
+p {
+  margin: 0 0 12px 0;
+}
+
+.contact {
+  color: var(--muted);
+}
+
+hr {
+  border: 0;
+  border-top: 1px solid var(--rule);
+  margin: 16px 0;
+}
+
+ul {
+  margin: 0 0 8px 20px;
+  padding: 0;
+}
+
+li {
+  margin: 6px 0;
+}
+
+a {
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+}
