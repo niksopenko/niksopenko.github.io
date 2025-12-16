@@ -12,7 +12,8 @@ html, body {
 body {
   color: var(--text);
   background: #fff;
-  /* font-family: Georgia, "Times New Roman", Times, serif; */
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI",
+             Arial, Helvetica, sans-serif;
   font-size: 18px;
   line-height: 1.45;
 }
