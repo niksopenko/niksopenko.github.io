@@ -13,7 +13,7 @@ body {
   color: var(--text);
   background: #fff;
   font-family: Georgia, "Times New Roman", Times, serif;
-  font-size: 19px;     /* slightly bigger, nothing else changed */
+  font-size: 18px;
   line-height: 1.45;
 }
 
@@ -65,4 +65,3 @@ a {
 a:hover {
   text-decoration: underline;
 }
-
