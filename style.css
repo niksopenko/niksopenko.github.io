@@ -18,9 +18,9 @@ body {
 }
 
 .page {
-  max-width: 780px;
-  margin: 28px auto;
-  padding: 0 16px;
+  max-width: none;   /* remove the constraint */
+  margin: 28px 0;    /* no horizontal centering */
+  padding: 0 32px;   /* comfortable side margins */
 }
 
 h1 {
