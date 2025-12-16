@@ -12,24 +12,24 @@ html, body {
 body {
   color: var(--text);
   background: #fff;
-  font-size: 18px;
+  font-size: 28px;   /* 1.5× bigger */
   line-height: 1.45;
 }
 
 .page {
-  max-width: none;   /* remove the constraint */
-  margin: 28px 0;    /* no horizontal centering */
-  padding: 0 32px;   /* comfortable side margins */
+  max-width: none;
+  margin: 28px 0;
+  padding: 0 32px;
 }
 
 h1 {
-  font-size: 28px;
+  font-size: 42px;   /* 28 × 1.5 */
   font-weight: 700;
   margin: 0 0 12px 0;
 }
 
 h2 {
-  font-size: 18px;
+  font-size: 27px;   /* 18 × 1.5 */
   font-weight: 700;
   margin: 18px 0 8px 0;
 }
